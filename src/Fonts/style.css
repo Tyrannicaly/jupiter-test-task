@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Epilogue Italic'), url('Epilogue-Italic-VariableFont_wght.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Epilogue'), url('Epilogue-VariableFont_wght.ttf') format('ttf');
+}

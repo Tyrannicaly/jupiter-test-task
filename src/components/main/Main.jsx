@@ -29,7 +29,7 @@ const removeOneItem = () => {
 useEffect(()=>{
 id = removeItem;
 flak = allItems;
-},[removeItem])
+},[removeItem,allItems])
 
   return (
     <main className={C.main}>

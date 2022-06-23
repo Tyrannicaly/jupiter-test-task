@@ -7,11 +7,10 @@ const Header = () =>{
         {/* <div className={C.header__about_logo}></div> */}
         <img src={logo} alt=""/>
         <nav className={C.header__about_main}>
-            <a>Home</a>
-            <a>Home</a>
-            <a>Home</a>
-            <a>Home</a>
-            <a>Home</a>
+            <a>About</a>
+            <a>Services</a>
+            <a>Pricing</a>
+            <a>Blog</a>
         </nav>
       <button className={C.about_button}>
         contact
