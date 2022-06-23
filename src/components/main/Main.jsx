@@ -16,7 +16,7 @@ const Main = () => {
     const [removeItem, setRemoveItem] = useState(null)
 
 const removeOneItem = () => {
-    const newAllItems = mass.filter(elem=>elem._id !== id )
+    const newAllItems = flak.filter(elem=>elem._id !== id )
     setAllItems(newAllItems)
 }
 
