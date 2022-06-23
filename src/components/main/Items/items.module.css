@@ -1,0 +1,53 @@
+.C_items {
+  margin: 71px 0 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 1800px;
+}
+.item {
+  height: 416px;
+  width: 370px;
+  margin: 15px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: flex-end;
+}
+/* .item:hover {
+  border: 8px solid #16cd53;
+  height: 400px;
+  width: 354px;
+} */
+.C_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 0 65px 45px;
+}
+.sort {
+  color: #391400;
+  border-radius: 19px;
+  padding: 15px 16px 10px 16px;
+  background-color: white;
+}
+.name {
+  /* font-family: 'Epilogue'; */
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+  margin-top: 13px;
+}
+@media screen and (max-width: 1040px) {
+  .C_items {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item {
+    width: 329px;
+    margin: 15px 0;
+  }
+}
